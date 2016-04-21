@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2048B1D9C8609C096F99970 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF920E290502BD00D774314 /* libPods.a */; };
+		F4040DDC1C73A7750094FEF8 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4040DDB1C73A7750094FEF8 /* ColorWheel.m */; };
+		F44382B11C812B98003986D1 /* pop_drip_snap.aif in Resources */ = {isa = PBXBuildFile; fileRef = F44382B01C812B98003986D1 /* pop_drip_snap.aif */; };
+		F44382B31C813F5F003986D1 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = F44382B21C813F5F003986D1 /* photo.png */; };
+		F486356C1CC191E700696D94 /* RionaSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F486355C1CC191E700696D94 /* RionaSans-Black.otf */; };
+		F486356D1CC191E700696D94 /* RionaSans-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = F486355D1CC191E700696D94 /* RionaSans-BlackIt.otf */; };
+		F486356E1CC191E700696D94 /* RionaSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F486355E1CC191E700696D94 /* RionaSans-Bold.otf */; };
+		F486356F1CC191E700696D94 /* RionaSans-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = F486355F1CC191E700696D94 /* RionaSans-BoldIt.otf */; };
+		F48635701CC191E700696D94 /* RionaSans-ExtraBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = F48635601CC191E700696D94 /* RionaSans-ExtraBlack.otf */; };
+		F48635711CC191E700696D94 /* RionaSans-ExtraBlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = F48635611CC191E700696D94 /* RionaSans-ExtraBlackIt.otf */; };
+		F48635721CC191E700696D94 /* RionaSans-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F48635621CC191E700696D94 /* RionaSans-ExtraLight.otf */; };
+		F48635731CC191E700696D94 /* RionaSans-ExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = F48635631CC191E700696D94 /* RionaSans-ExtraLightIt.otf */; };
+		F48635741CC191E700696D94 /* RionaSans-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F48635641CC191E700696D94 /* RionaSans-Italic.otf */; };
+		F48635751CC191E700696D94 /* RionaSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F48635651CC191E700696D94 /* RionaSans-Light.otf */; };
+		F48635761CC191E700696D94 /* RionaSans-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = F48635661CC191E700696D94 /* RionaSans-LightIt.otf */; };
+		F48635771CC191E700696D94 /* RionaSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F48635671CC191E700696D94 /* RionaSans-Medium.otf */; };
+		F48635781CC191E700696D94 /* RionaSans-MediumIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = F48635681CC191E700696D94 /* RionaSans-MediumIt.otf */; };
+		F48635791CC191E700696D94 /* RionaSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F48635691CC191E700696D94 /* RionaSans-Regular.otf */; };
+		F486357A1CC191E700696D94 /* RionaSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F486356A1CC191E700696D94 /* RionaSans-Thin.otf */; };
+		F486357B1CC191E700696D94 /* RionaSans-ThinIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = F486356B1CC191E700696D94 /* RionaSans-ThinIt.otf */; };
+		F486357D1CC1924200696D94 /* kiss3 copy.wav in Resources */ = {isa = PBXBuildFile; fileRef = F486357C1CC1924200696D94 /* kiss3 copy.wav */; };
+		F4F86D471C6FB5EC00627B8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F86D461C6FB5EC00627B8A /* main.m */; };
+		F4F86D4A1C6FB5EC00627B8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F86D491C6FB5EC00627B8A /* AppDelegate.m */; };
+		F4F86D4D1C6FB5EC00627B8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F86D4C1C6FB5EC00627B8A /* ViewController.m */; };
+		F4F86D501C6FB5EC00627B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F86D4E1C6FB5EC00627B8A /* Main.storyboard */; };
+		F4F86D521C6FB5EC00627B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F86D511C6FB5EC00627B8A /* Assets.xcassets */; };
+		F4F86D551C6FB5EC00627B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F86D531C6FB5EC00627B8A /* LaunchScreen.storyboard */; };
+		F4F86D601C6FB5EC00627B8A /* GrovestinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F86D5F1C6FB5EC00627B8A /* GrovestinTests.m */; };
+		F4F86D6B1C6FB5EC00627B8A /* GrovestinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F86D6A1C6FB5EC00627B8A /* GrovestinUITests.m */; };
+		F4F86D7A1C6FCE9400627B8A /* ReasonList.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F86D791C6FCE9400627B8A /* ReasonList.m */; };
+		F4F86D801C6FFC8800627B8A /* another.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F86D7F1C6FFC8800627B8A /* another.png */; };
+		F4F86DD01C70066600627B8A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F86DCF1C70066600627B8A /* AudioToolbox.framework */; };
+		F4F86DD21C70067700627B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F86DD11C70067700627B8A /* Foundation.framework */; };
+		F4F86DD41C70067D00627B8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F86DD31C70067D00627B8A /* CoreGraphics.framework */; };
+		F4F86DD61C70068700627B8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F86DD51C70068700627B8A /* UIKit.framework */; };
+		FD9B80FE6E25CAF7FF65CEC5 /* libPods-Grovestin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4BE287302FDB33DF265307 /* libPods-Grovestin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4F86D5C1C6FB5EC00627B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4F86D3A1C6FB5EB00627B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F86D411C6FB5EC00627B8A;
+			remoteInfo = Grovestin;
+		};
+		F4F86D671C6FB5EC00627B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4F86D3A1C6FB5EB00627B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F86D411C6FB5EC00627B8A;
+			remoteInfo = Grovestin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D54256DFDBF0E0CC8B38A4E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5E4BE287302FDB33DF265307 /* libPods-Grovestin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Grovestin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8079DEB6DB20525908CD7931 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AAF920E290502BD00D774314 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4040DDA1C73A7750094FEF8 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorWheel.h; path = ../ColorWheel.h; sourceTree = "<group>"; };
+		F4040DDB1C73A7750094FEF8 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorWheel.m; path = ../ColorWheel.m; sourceTree = "<group>"; };
+		F44382B01C812B98003986D1 /* pop_drip_snap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = pop_drip_snap.aif; sourceTree = "<group>"; };
+		F44382B21C813F5F003986D1 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		F486355C1CC191E700696D94 /* RionaSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-Black.otf"; path = "../RionaSans-Black.otf"; sourceTree = "<group>"; };
+		F486355D1CC191E700696D94 /* RionaSans-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-BlackIt.otf"; path = "../RionaSans-BlackIt.otf"; sourceTree = "<group>"; };
+		F486355E1CC191E700696D94 /* RionaSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-Bold.otf"; path = "../RionaSans-Bold.otf"; sourceTree = "<group>"; };
+		F486355F1CC191E700696D94 /* RionaSans-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-BoldIt.otf"; path = "../RionaSans-BoldIt.otf"; sourceTree = "<group>"; };
+		F48635601CC191E700696D94 /* RionaSans-ExtraBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-ExtraBlack.otf"; path = "../RionaSans-ExtraBlack.otf"; sourceTree = "<group>"; };
+		F48635611CC191E700696D94 /* RionaSans-ExtraBlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-ExtraBlackIt.otf"; path = "../RionaSans-ExtraBlackIt.otf"; sourceTree = "<group>"; };
+		F48635621CC191E700696D94 /* RionaSans-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-ExtraLight.otf"; path = "../RionaSans-ExtraLight.otf"; sourceTree = "<group>"; };
+		F48635631CC191E700696D94 /* RionaSans-ExtraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-ExtraLightIt.otf"; path = "../RionaSans-ExtraLightIt.otf"; sourceTree = "<group>"; };
+		F48635641CC191E700696D94 /* RionaSans-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-Italic.otf"; path = "../RionaSans-Italic.otf"; sourceTree = "<group>"; };
+		F48635651CC191E700696D94 /* RionaSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-Light.otf"; path = "../RionaSans-Light.otf"; sourceTree = "<group>"; };
+		F48635661CC191E700696D94 /* RionaSans-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-LightIt.otf"; path = "../RionaSans-LightIt.otf"; sourceTree = "<group>"; };
+		F48635671CC191E700696D94 /* RionaSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-Medium.otf"; path = "../RionaSans-Medium.otf"; sourceTree = "<group>"; };
+		F48635681CC191E700696D94 /* RionaSans-MediumIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-MediumIt.otf"; path = "../RionaSans-MediumIt.otf"; sourceTree = "<group>"; };
+		F48635691CC191E700696D94 /* RionaSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-Regular.otf"; path = "../RionaSans-Regular.otf"; sourceTree = "<group>"; };
+		F486356A1CC191E700696D94 /* RionaSans-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-Thin.otf"; path = "../RionaSans-Thin.otf"; sourceTree = "<group>"; };
+		F486356B1CC191E700696D94 /* RionaSans-ThinIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RionaSans-ThinIt.otf"; path = "../RionaSans-ThinIt.otf"; sourceTree = "<group>"; };
+		F486357C1CC1924200696D94 /* kiss3 copy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "kiss3 copy.wav"; path = "../kiss3 copy.wav"; sourceTree = "<group>"; };
+		F4F86D421C6FB5EC00627B8A /* Grovestin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grovestin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F86D461C6FB5EC00627B8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4F86D481C6FB5EC00627B8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4F86D491C6FB5EC00627B8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4F86D4B1C6FB5EC00627B8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4F86D4C1C6FB5EC00627B8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4F86D4F1C6FB5EC00627B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4F86D511C6FB5EC00627B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4F86D541C6FB5EC00627B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4F86D561C6FB5EC00627B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F86D5B1C6FB5EC00627B8A /* GrovestinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrovestinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F86D5F1C6FB5EC00627B8A /* GrovestinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrovestinTests.m; sourceTree = "<group>"; };
+		F4F86D611C6FB5EC00627B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F86D661C6FB5EC00627B8A /* GrovestinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrovestinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F86D6A1C6FB5EC00627B8A /* GrovestinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrovestinUITests.m; sourceTree = "<group>"; };
+		F4F86D6C1C6FB5EC00627B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F86D781C6FCE9400627B8A /* ReasonList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReasonList.h; sourceTree = "<group>"; };
+		F4F86D791C6FCE9400627B8A /* ReasonList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReasonList.m; sourceTree = "<group>"; };
+		F4F86D7F1C6FFC8800627B8A /* another.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = another.png; sourceTree = "<group>"; };
+		F4F86DCF1C70066600627B8A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F4F86DD11C70067700627B8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4F86DD31C70067D00627B8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4F86DD51C70068700627B8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4F86D3F1C6FB5EC00627B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F86DD61C70068700627B8A /* UIKit.framework in Frameworks */,
+				F4F86DD41C70067D00627B8A /* CoreGraphics.framework in Frameworks */,
+				F4F86DD21C70067700627B8A /* Foundation.framework in Frameworks */,
+				F4F86DD01C70066600627B8A /* AudioToolbox.framework in Frameworks */,
+				C2048B1D9C8609C096F99970 /* libPods.a in Frameworks */,
+				FD9B80FE6E25CAF7FF65CEC5 /* libPods-Grovestin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F86D581C6FB5EC00627B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F86D631C6FB5EC00627B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9499AD27102AE603C3DDFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF920E290502BD00D774314 /* libPods.a */,
+				5E4BE287302FDB33DF265307 /* libPods-Grovestin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7C20333CBDB21E8B93158C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8079DEB6DB20525908CD7931 /* Pods.debug.xcconfig */,
+				3D54256DFDBF0E0CC8B38A4E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4F86D391C6FB5EB00627B8A = {
+			isa = PBXGroup;
+			children = (
+				F44382B21C813F5F003986D1 /* photo.png */,
+				F4F86D441C6FB5EC00627B8A /* Grovestin */,
+				F4F86D5E1C6FB5EC00627B8A /* GrovestinTests */,
+				F4F86D691C6FB5EC00627B8A /* GrovestinUITests */,
+				F4F86D431C6FB5EC00627B8A /* Products */,
+				F4F86DD51C70068700627B8A /* UIKit.framework */,
+				F4F86DD31C70067D00627B8A /* CoreGraphics.framework */,
+				F4F86DD11C70067700627B8A /* Foundation.framework */,
+				F4F86DCF1C70066600627B8A /* AudioToolbox.framework */,
+				D7C20333CBDB21E8B93158C4 /* Pods */,
+				1F9499AD27102AE603C3DDFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4F86D431C6FB5EC00627B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4F86D421C6FB5EC00627B8A /* Grovestin.app */,
+				F4F86D5B1C6FB5EC00627B8A /* GrovestinTests.xctest */,
+				F4F86D661C6FB5EC00627B8A /* GrovestinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F86D441C6FB5EC00627B8A /* Grovestin */ = {
+			isa = PBXGroup;
+			children = (
+				F486357C1CC1924200696D94 /* kiss3 copy.wav */,
+				F4F86D4B1C6FB5EC00627B8A /* ViewController.h */,
+				F4F86D4C1C6FB5EC00627B8A /* ViewController.m */,
+				F4F86D781C6FCE9400627B8A /* ReasonList.h */,
+				F4F86D791C6FCE9400627B8A /* ReasonList.m */,
+				F4040DDA1C73A7750094FEF8 /* ColorWheel.h */,
+				F4040DDB1C73A7750094FEF8 /* ColorWheel.m */,
+				F4F86D4E1C6FB5EC00627B8A /* Main.storyboard */,
+				F44382B01C812B98003986D1 /* pop_drip_snap.aif */,
+				F4F86D7F1C6FFC8800627B8A /* another.png */,
+				F4F86D511C6FB5EC00627B8A /* Assets.xcassets */,
+				F4F86D531C6FB5EC00627B8A /* LaunchScreen.storyboard */,
+				F4F86D561C6FB5EC00627B8A /* Info.plist */,
+				F4F86D451C6FB5EC00627B8A /* Supporting Files */,
+			);
+			path = Grovestin;
+			sourceTree = "<group>";
+		};
+		F4F86D451C6FB5EC00627B8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4F86D481C6FB5EC00627B8A /* AppDelegate.h */,
+				F4F86D491C6FB5EC00627B8A /* AppDelegate.m */,
+				F4F86D461C6FB5EC00627B8A /* main.m */,
+				F486355C1CC191E700696D94 /* RionaSans-Black.otf */,
+				F486355D1CC191E700696D94 /* RionaSans-BlackIt.otf */,
+				F486355E1CC191E700696D94 /* RionaSans-Bold.otf */,
+				F486355F1CC191E700696D94 /* RionaSans-BoldIt.otf */,
+				F48635601CC191E700696D94 /* RionaSans-ExtraBlack.otf */,
+				F48635611CC191E700696D94 /* RionaSans-ExtraBlackIt.otf */,
+				F48635621CC191E700696D94 /* RionaSans-ExtraLight.otf */,
+				F48635631CC191E700696D94 /* RionaSans-ExtraLightIt.otf */,
+				F48635641CC191E700696D94 /* RionaSans-Italic.otf */,
+				F48635651CC191E700696D94 /* RionaSans-Light.otf */,
+				F48635661CC191E700696D94 /* RionaSans-LightIt.otf */,
+				F48635671CC191E700696D94 /* RionaSans-Medium.otf */,
+				F48635681CC191E700696D94 /* RionaSans-MediumIt.otf */,
+				F48635691CC191E700696D94 /* RionaSans-Regular.otf */,
+				F486356A1CC191E700696D94 /* RionaSans-Thin.otf */,
+				F486356B1CC191E700696D94 /* RionaSans-ThinIt.otf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4F86D5E1C6FB5EC00627B8A /* GrovestinTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4F86D5F1C6FB5EC00627B8A /* GrovestinTests.m */,
+				F4F86D611C6FB5EC00627B8A /* Info.plist */,
+			);
+			path = GrovestinTests;
+			sourceTree = "<group>";
+		};
+		F4F86D691C6FB5EC00627B8A /* GrovestinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4F86D6A1C6FB5EC00627B8A /* GrovestinUITests.m */,
+				F4F86D6C1C6FB5EC00627B8A /* Info.plist */,
+			);
+			path = GrovestinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4F86D411C6FB5EC00627B8A /* Grovestin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F86D6F1C6FB5EC00627B8A /* Build configuration list for PBXNativeTarget "Grovestin" */;
+			buildPhases = (
+				C9BECEFD4B342A72CCCAA2A5 /* Check Pods Manifest.lock */,
+				F4F86D3E1C6FB5EC00627B8A /* Sources */,
+				F4F86D3F1C6FB5EC00627B8A /* Frameworks */,
+				F4F86D401C6FB5EC00627B8A /* Resources */,
+				ACC70228E304973145F460C2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grovestin;
+			productName = Grovestin;
+			productReference = F4F86D421C6FB5EC00627B8A /* Grovestin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4F86D5A1C6FB5EC00627B8A /* GrovestinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F86D721C6FB5EC00627B8A /* Build configuration list for PBXNativeTarget "GrovestinTests" */;
+			buildPhases = (
+				F4F86D571C6FB5EC00627B8A /* Sources */,
+				F4F86D581C6FB5EC00627B8A /* Frameworks */,
+				F4F86D591C6FB5EC00627B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4F86D5D1C6FB5EC00627B8A /* PBXTargetDependency */,
+			);
+			name = GrovestinTests;
+			productName = GrovestinTests;
+			productReference = F4F86D5B1C6FB5EC00627B8A /* GrovestinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4F86D651C6FB5EC00627B8A /* GrovestinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F86D751C6FB5EC00627B8A /* Build configuration list for PBXNativeTarget "GrovestinUITests" */;
+			buildPhases = (
+				F4F86D621C6FB5EC00627B8A /* Sources */,
+				F4F86D631C6FB5EC00627B8A /* Frameworks */,
+				F4F86D641C6FB5EC00627B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4F86D681C6FB5EC00627B8A /* PBXTargetDependency */,
+			);
+			name = GrovestinUITests;
+			productName = GrovestinUITests;
+			productReference = F4F86D661C6FB5EC00627B8A /* GrovestinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4F86D3A1C6FB5EB00627B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Grover Light";
+				TargetAttributes = {
+					F4F86D411C6FB5EC00627B8A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4THJ5Z3YGF;
+					};
+					F4F86D5A1C6FB5EC00627B8A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F4F86D411C6FB5EC00627B8A;
+					};
+					F4F86D651C6FB5EC00627B8A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F4F86D411C6FB5EC00627B8A;
+					};
+				};
+			};
+			buildConfigurationList = F4F86D3D1C6FB5EB00627B8A /* Build configuration list for PBXProject "Grovestin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4F86D391C6FB5EB00627B8A;
+			productRefGroup = F4F86D431C6FB5EC00627B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4F86D411C6FB5EC00627B8A /* Grovestin */,
+				F4F86D5A1C6FB5EC00627B8A /* GrovestinTests */,
+				F4F86D651C6FB5EC00627B8A /* GrovestinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4F86D401C6FB5EC00627B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48635741CC191E700696D94 /* RionaSans-Italic.otf in Resources */,
+				F48635781CC191E700696D94 /* RionaSans-MediumIt.otf in Resources */,
+				F44382B31C813F5F003986D1 /* photo.png in Resources */,
+				F4F86D801C6FFC8800627B8A /* another.png in Resources */,
+				F4F86D551C6FB5EC00627B8A /* LaunchScreen.storyboard in Resources */,
+				F48635721CC191E700696D94 /* RionaSans-ExtraLight.otf in Resources */,
+				F48635751CC191E700696D94 /* RionaSans-Light.otf in Resources */,
+				F4F86D521C6FB5EC00627B8A /* Assets.xcassets in Resources */,
+				F48635761CC191E700696D94 /* RionaSans-LightIt.otf in Resources */,
+				F48635731CC191E700696D94 /* RionaSans-ExtraLightIt.otf in Resources */,
+				F486357D1CC1924200696D94 /* kiss3 copy.wav in Resources */,
+				F48635711CC191E700696D94 /* RionaSans-ExtraBlackIt.otf in Resources */,
+				F486356F1CC191E700696D94 /* RionaSans-BoldIt.otf in Resources */,
+				F486356E1CC191E700696D94 /* RionaSans-Bold.otf in Resources */,
+				F486357A1CC191E700696D94 /* RionaSans-Thin.otf in Resources */,
+				F486357B1CC191E700696D94 /* RionaSans-ThinIt.otf in Resources */,
+				F4F86D501C6FB5EC00627B8A /* Main.storyboard in Resources */,
+				F48635791CC191E700696D94 /* RionaSans-Regular.otf in Resources */,
+				F44382B11C812B98003986D1 /* pop_drip_snap.aif in Resources */,
+				F486356D1CC191E700696D94 /* RionaSans-BlackIt.otf in Resources */,
+				F486356C1CC191E700696D94 /* RionaSans-Black.otf in Resources */,
+				F48635701CC191E700696D94 /* RionaSans-ExtraBlack.otf in Resources */,
+				F48635771CC191E700696D94 /* RionaSans-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F86D591C6FB5EC00627B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F86D641C6FB5EC00627B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ACC70228E304973145F460C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9BECEFD4B342A72CCCAA2A5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4F86D3E1C6FB5EC00627B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F86D4D1C6FB5EC00627B8A /* ViewController.m in Sources */,
+				F4F86D4A1C6FB5EC00627B8A /* AppDelegate.m in Sources */,
+				F4F86D471C6FB5EC00627B8A /* main.m in Sources */,
+				F4F86D7A1C6FCE9400627B8A /* ReasonList.m in Sources */,
+				F4040DDC1C73A7750094FEF8 /* ColorWheel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F86D571C6FB5EC00627B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F86D601C6FB5EC00627B8A /* GrovestinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F86D621C6FB5EC00627B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F86D6B1C6FB5EC00627B8A /* GrovestinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4F86D5D1C6FB5EC00627B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4F86D411C6FB5EC00627B8A /* Grovestin */;
+			targetProxy = F4F86D5C1C6FB5EC00627B8A /* PBXContainerItemProxy */;
+		};
+		F4F86D681C6FB5EC00627B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4F86D411C6FB5EC00627B8A /* Grovestin */;
+			targetProxy = F4F86D671C6FB5EC00627B8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4F86D4E1C6FB5EC00627B8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F86D4F1C6FB5EC00627B8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4F86D531C6FB5EC00627B8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F86D541C6FB5EC00627B8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4F86D6D1C6FB5EC00627B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4F86D6E1C6FB5EC00627B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4F86D701C6FB5EC00627B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8079DEB6DB20525908CD7931 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Grovestin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.groverlight.Grovestin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Grovestin/Grovestin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4F86D711C6FB5EC00627B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D54256DFDBF0E0CC8B38A4E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Grovestin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.groverlight.Grovestin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Grovestin/Grovestin-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F4F86D731C6FB5EC00627B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrovestinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.groverlight.Grovestin.GrovestinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grovestin.app/Grovestin";
+			};
+			name = Debug;
+		};
+		F4F86D741C6FB5EC00627B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrovestinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.groverlight.Grovestin.GrovestinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grovestin.app/Grovestin";
+			};
+			name = Release;
+		};
+		F4F86D761C6FB5EC00627B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrovestinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.groverlight.Grovestin.GrovestinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Grovestin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F4F86D771C6FB5EC00627B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrovestinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.groverlight.Grovestin.GrovestinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Grovestin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4F86D3D1C6FB5EB00627B8A /* Build configuration list for PBXProject "Grovestin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F86D6D1C6FB5EC00627B8A /* Debug */,
+				F4F86D6E1C6FB5EC00627B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F86D6F1C6FB5EC00627B8A /* Build configuration list for PBXNativeTarget "Grovestin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F86D701C6FB5EC00627B8A /* Debug */,
+				F4F86D711C6FB5EC00627B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F86D721C6FB5EC00627B8A /* Build configuration list for PBXNativeTarget "GrovestinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F86D731C6FB5EC00627B8A /* Debug */,
+				F4F86D741C6FB5EC00627B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F86D751C6FB5EC00627B8A /* Build configuration list for PBXNativeTarget "GrovestinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F86D761C6FB5EC00627B8A /* Debug */,
+				F4F86D771C6FB5EC00627B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4F86D3A1C6FB5EB00627B8A /* Project object */;
+}

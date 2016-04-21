@@ -1,0 +1,25 @@
+PODS:
+  - FloatingClouds (0.1.1)
+  - pop (1.0.9)
+  - randomColor (1.0.0)
+
+DEPENDENCIES:
+  - FloatingClouds (from `https://github.com/johndpope/FloatingCloudsView.git`)
+  - pop (~> 1.0)
+  - randomColor
+
+EXTERNAL SOURCES:
+  FloatingClouds:
+    :git: https://github.com/johndpope/FloatingCloudsView.git
+
+CHECKOUT OPTIONS:
+  FloatingClouds:
+    :commit: d6b46592c3f13855d9cd3854f4ee1bd58fcb6496
+    :git: https://github.com/johndpope/FloatingCloudsView.git
+
+SPEC CHECKSUMS:
+  FloatingClouds: 134eb7af3772ad194afade67950182ede432fc28
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  randomColor: 9e9c05e7a06c2f54bbadd76937a9d1aa3bf519b5
+
+COCOAPODS: 0.38.2
